@@ -103,6 +103,7 @@ import { TextboxComponent } from './controls/textbox/textbox.component';
 import { SiteConfigComponent } from './site/site-config/site-config.component';
 import { CommandBarComponent } from './controls/command-bar/command-bar.component';
 import { CommandComponent } from './controls/command-bar/command/command.component';
+import { EventHubComponent } from './pickers/event-hub/event-hub.component';
 
 export function ConfigLoader(config: ConfigService) {
   return () => config.loadConfig()
@@ -184,7 +185,8 @@ export function ConfigLoader(config: ConfigService) {
         ClickToEditComponent,
         CommandBarComponent,
         CommandComponent,
-        CreateAppComponent
+        CreateAppComponent,
+        EventHubComponent
     ],
     imports: [
         FormsModule,

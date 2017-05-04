@@ -534,5 +534,9 @@ export class PortalResources
     public static functionKeys_renewConfirmation: string = "functionKeys_renewConfirmation";
     public static emptyBrowse: string = "emptyBrowse";
     public static emptyBrowse_learnMore: string = "emptyBrowse_learnMore";
+    public static eventHubPicker_eventHub: string = "eventHubPicker_eventHub";
+    public static eventHubPicker_namespace: string = "eventHubPicker_namespace";
+    public static eventHubPicker_notFound: string = "eventHubPicker_notFound";
+    public static eventHubPicker_policy: string = "eventHubPicker_policy";
 }
 

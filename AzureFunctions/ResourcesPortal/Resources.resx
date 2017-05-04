@@ -1717,4 +1717,16 @@ Set to "External URL" to use an API definition that is hosted elsewhere.</value>
   <data name="emptyBrowse_learnMore" xml:space="preserve">
     <value>Learn more about azure functions</value>
   </data>
+  <data name="eventHubPicker_eventHub" xml:space="preserve">
+    <value>Event Hub</value>
+  </data>
+  <data name="eventHubPicker_namespace" xml:space="preserve">
+    <value>Namespace</value>
+  </data>
+  <data name="eventHubPicker_notFound" xml:space="preserve">
+    <value>Not found.</value>
+  </data>
+  <data name="eventHubPicker_policy" xml:space="preserve">
+    <value>Policy</value>
+  </data>
 </root>
